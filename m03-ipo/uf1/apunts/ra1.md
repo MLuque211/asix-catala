@@ -90,3 +90,4 @@ En aquest apartat trobaràs documentació de referència sobre els [itineraris p
 
 En aquest apartat trobaràs l'[activitat 1](../exercicis/ra1-act1-debat.md) sobre el debat grupal del sector professional.
 
+En aquest apartat trobaràs l'[activitat 2](../exercicis/ra1-act2-fitxa-professional.pdf) sobre la fitxa professional a fer.
