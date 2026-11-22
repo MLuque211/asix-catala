@@ -18,7 +18,7 @@ Organització dels materials i recursos del mòdul M05.
 
 ### Enunciats i pràctiques
 
-[Document central](./practiques/exercicis_de_classe.md) d'enunciats on es detalla cada activitat i s'enllacen els seus recursos associats (modelatge en Asciidoctor traduïts a Markdown, scripts DDL manuals, *dumps* de DBeaver, diagrames i sortides de terminal _SHOW_) allotjats a les carpetes _ActXXX/_ dins de [_practiques_](./practiques/).
+[Document central](./practiques/README.md) d'enunciats on es detalla cada activitat i s'enllacen els seus recursos associats (modelatge en Asciidoctor traduïts a Markdown, scripts DDL manuals, *dumps* de DBeaver, diagrames i sortides de terminal _SHOW_) allotjats a les carpetes _ActXXX/_ dins de [_practiques_](./practiques/).
 
 ---
 
