@@ -26,4 +26,4 @@ Convertir els següents nombres en base hexadecimal ($16$) a decimal ($10$):
 * **h)** $BD4_{16} = \mathbf{3028_{10}}$
 * **i)** $1551_{16} = \mathbf{5457_{10}}$
 * **j)** $CCC_{16} = \mathbf{3276_{10}}$
-</details>
+</details>tol de *Tècnic Bàsic en Prevenció de Riscos Laborals*.

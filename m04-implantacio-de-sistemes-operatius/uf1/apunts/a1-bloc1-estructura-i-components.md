@@ -1,6 +1,6 @@
 # Conceptes inicials i d'arquitectura
 - **Eines i Entorn:** Ús de **Markdown** com a editor de text tècnic.
-- **[Model de von Neumann](./a1-bloc1-Von-Neumann.pdf)**: Arquitectura bàsica d'un ordinador composta per tres blocs principals:
+- **[Model de von Neumann](./Documentació/a1-bloc1-Von-Neumann.pdf)**: Arquitectura bàsica d'un ordinador composta per tres blocs principals:
     - **CPU** (Central Processing Unit).
     - **Memòria** principal.
     - **Dispositius d'Entrades i Sortides (E/S)**.
@@ -9,7 +9,7 @@
     - **Software (programació):** La part lògica, on destaca el **Sistema Operatiu (SO)** com el programari principal que gestiona els recursos de la màquina.
 
 # Sistemes de numeració i codificació
-Els sistemes més utilitzats en informàtica són el **binari** i l'**hexadecimal**, a causa de la seva relació directa amb l'electrònica digital ([exemple de canvi de bases](./a1-bloc1-canvis-Base.pdf)).
+Els sistemes més utilitzats en informàtica són el **binari** i l'**hexadecimal**, a causa de la seva relació directa amb l'electrònica digital ([exemple de canvi de bases](./Documentació/a1-bloc1-canvis-Base.pdf)).
 - **Binari (Base 2):** Dígits $0$ i $1$.
 - **Octal (Base 8):** Dígits del $0$ al $7$.
 - **Decimal (Base 10):** Dígits del $0$ al $9$.
@@ -142,7 +142,7 @@ En aquest apartat trobaràs l'[exercici 6](../exercicis/ex6-hexadecimal-a-binari
 
 ## Operaciones lògiques
 
-Operacions i portes lògiques, i també l'Àlgebra de Boole, en aquest [document](./a1-bloc1-portes-logiques.pdf). El resum seria:
+Operacions i portes lògiques, i també l'Àlgebra de Boole, en aquest [document](./Documentació/a1-bloc1-portes-logiques.pdf). El resum seria:
 
 | **A** | **B** | **A OR B** | **A AND B** | **A XOR B** | **NOT B** | **A NOR B** | **A NAND B** |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |

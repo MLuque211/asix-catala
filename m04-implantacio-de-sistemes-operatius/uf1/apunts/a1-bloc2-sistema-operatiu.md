@@ -4,7 +4,7 @@ Un sistema operatiu (SO) és el conjunt de programes informàtics de sistema que
 
 ## Concepte de procés
 
-La informació pertinent s'ha extret del [PDF](./a1-bloc2-gestio-processos.pdf) del moodle i del [vídeo](https://www.youtube.com/watch?v=V4--MPYajUk) **no actual** sobre el mateix tema.
+La informació pertinent s'ha extret del [PDF](./Documentació/a1-bloc2-gestio-processos.pdf) del moodle i del [vídeo](https://www.youtube.com/watch?v=V4--MPYajUk) **no actual** sobre el mateix tema.
 
 ### Definició
 - Programa: Entitat passiva. Conjunt d'instruccions emmagatzemades en un mitjà d'emmagatzematge (disc) o memòria sense executar-se.
@@ -154,7 +154,7 @@ L'estructura de dades central on el SO guarda la informació d'un procés:
 
 ## Concurrència entre processos
 
-La [concurrència](./a1-bloc2-concurrencia-processos.pdf) és la capacitat d'un sistema operatiu per executar de manera simultània o intercalada múltiples processos que comparteixen recursos. Aquest document analitza en profunditat els problemes derivats de l'execució concurrent i els diferents mecanismes de sincronització i comunicació dissenyats per evitar inconsistències en les dades i interbloquejos.
+La [concurrència](./Documentació/a1-bloc2-concurrencia-processos.pdf) és la capacitat d'un sistema operatiu per executar de manera simultània o intercalada múltiples processos que comparteixen recursos. Aquest document analitza en profunditat els problemes derivats de l'execució concurrent i els diferents mecanismes de sincronització i comunicació dissenyats per evitar inconsistències en les dades i interbloquejos.
 
 ## Processament concurrent
 
@@ -409,7 +409,7 @@ Si necessites consolidar els coneixements o practicar més, també pots fer el [
 ---
 
 ## Gestió de la memòria en sistemes operatius
-La informació pertinent s'ha extret del [PDF](./a1-bloc2-gestio-memoria.pdf) del moodle i del [vídeo](https://www.youtube.com/watch?v=6y5xNcaOI-c) **no actual** sobre el mateix tema.
+La informació pertinent s'ha extret del [PDF](./Documentació/a1-bloc2-gestio-memoria.pdf) del moodle i del [vídeo](https://www.youtube.com/watch?v=6y5xNcaOI-c) **no actual** sobre el mateix tema.
 
 La gestió de la memòria per part del sistema operatiu té com a objectiu principal ubicar el màxim nombre de processos a la memòria principal garantint-ne l'aprofitament òptim en entorns de multiprogramació. Aquest resum combina els fonaments teòrics i les arquitectures utilitzades per aconseguir una administració eficient dels recursos de memòria.
 
