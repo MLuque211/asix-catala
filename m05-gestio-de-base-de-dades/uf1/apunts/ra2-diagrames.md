@@ -32,7 +32,7 @@ El text dels requeriments proporciona pistes fonamentals, però cal analitzar el
 
 Una mateixa paraula pot tenir papers diferents segons el context. Per exemple, un *préstec* pot ser una **interrelació** entre `ALUMNE` i `EXEMPLAR`, però si té atributs propis rellevants (*DataPrestec*, *DataPrevistaRetorn*, *Estat*, sancions...), habitualment es tractarà com una **entitat associativa**.
 
-Veure [Exercici 8. Extreure informació d'un enunciat](../exercicis/ex8-extreure-informacio.md)
+Veure [Exercici 8. Extreure informació d'un enunciat](../exercicis/ex008-extreure-informacio.md)
 
 
 ## 15. Model entitat-relació: elements fonamentals
@@ -92,7 +92,7 @@ Un **atribut** és una propietat o característica que descriu una entitat o una
 - **Clau alternativa**: Qualsevol clau candidata que no ha estat escollida com a clau primària.
 - **Clau composta**: Clau d'identificació formada per la unió de dos o més atributs.
 
-Veure [Exercici 9. Analitzar atributs](../exercicis/ex9-analitzar-atributs.md)
+Veure [Exercici 9. Analitzar atributs](../exercicis/ex009-analitzar-atributs.md)
 
 
 ## 16. Interrelacions i cardinalitats
@@ -154,7 +154,7 @@ S'utilitzen quan un fet de negoci depèn simultàniament de més de dues entitat
 
 > **Atenció de disseny:** No transformis automàticament qualsevol relació ternària en tres binàries independents sense comprovar primer si les tres entitats intervenen en un únic fet de negoci conjunt.
 
-Veure [Exercici 10. Triar cardinalitats](../exercicis/ex10-triar-cardinalitats.md)
+Veure [Exercici 10. Triar cardinalitats](../exercicis/ex010-triar-cardinalitats.md)
 
 
 ## 17. Extensions del model ER
@@ -259,7 +259,7 @@ DBeaver és un gestor de bases de dades especialment adequat per representar el 
 
 > **Nota sobre l'Edit Mode:** El mode d'edició directa de diagrames (*Edit mode*) requereix edicions de pagament (Enterprise/Ultimate). En l'edició **Community**, el flux correcte consisteix a crear/modificar les taules mitjançant l'SQL o el navegat i visualitzar-les posteriorment en el diagrama.
 
-No utilitzem DBeaver (sinó Asciidoctor), tot i així aquí podeu veure una pràctica guiada: [Exercici 11. Pràctica guiada amb DBeaver](../exercicis/ex11-practica-guiada.md)
+No utilitzem DBeaver (sinó Asciidoctor), tot i així aquí podeu veure una pràctica guiada: [Exercici 11. Pràctica guiada amb DBeaver](../exercicis/ex011-practica-guiada.md)
 
 
 ## 19. El model relacional
@@ -383,7 +383,7 @@ Moltes regles de negoci complexes no es poden validar únicament mitjançant res
     - Restriccions mitjançant el control de permisos i rols d'usuari.
 
 
-Veure [Exercici 12. Restriccions implementables i no implementables](../exercicis/ex12-restriccions.md)
+Veure [Exercici 12. Restriccions implementables i no implementables](../exercicis/ex012-restriccions.md)
 
 
 ## 21. Transformació del model ER al model relacional
@@ -562,7 +562,7 @@ L'ordre dels atributs dins d'una clau primària composta influeix en l'estructur
 
 > **NOTA:** L'ordre definit afavoreix directament les consultes que cerquen pel primer camp (id_alumne), com ara "obtenir totes les matrícules d'un alumne", però pot no ser igual d'eficient per a consultes filtrades només per id_assignatura.
 
-Veure [Exercici 13. Transofrmar un ER a relacionl](../exercicis/ex13-transformar.md)
+Veure [Exercici 13. Transofrmar un ER a relacionl](../exercicis/ex013-transformar.md)
 
 
 
@@ -685,7 +685,7 @@ Tota descomposició d'una relació durant el procés de normalització ha de com
 
 > **Avís:** Normalitzar no consisteix en dividir taules de manera intuïtiva. Cada descomposició s'ha de justificar estrictament mitjançant les dependències funcionals i l'ús real de les dades.
 
-Veure [Exercici 14. Normalitzar una relació](../exercicis/ex14-normalitzar.md)
+Veure [Exercici 14. Normalitzar una relació](../exercicis/ex014-normalitzar.md)
 
 # 23. Diccionari de dades i documentació de restriccions
 El disseny d'una base de dades no acaba amb la creació del diagrama Entitat-Relació o del model relacional. Per tal que el sistema sigui extensible, vàlid i mantenívol, cal acompanyar-lo d'una documentació detallada que especifiqui el significat de les dades i les regles que les regeixen.
@@ -769,4 +769,4 @@ quan és adequada.
 regles de negoci que el diagrama no pot expressar completament.
 
 
-Veure [Exercici 15. Avaluació final](../exercicis/Ex15-avaluacio-final.md)
+Veure [Exercici 15. Avaluació final](../exercicis/ex015-avaluacio-final.md)

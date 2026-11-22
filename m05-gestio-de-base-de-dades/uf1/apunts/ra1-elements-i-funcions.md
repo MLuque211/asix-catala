@@ -89,7 +89,7 @@ Exemple de Ticketmaster/FC Barcelona
 - Índex dens: Un índex amb els 5 milions de correus dels socis ordenats, on cada email té el seu apuntador.
 - Índex no dens (Dispers): Un índex que apunta només al primer soci de cada bloc de 1.000 registres per estalviar espai en memòria.
 ```
-Veure [Exercici 1: Elecció del sistema d'emmagatzematge](../exercicis/ex1-sistema-emmagatzematge.md)
+Veure [Exercici 1: Elecció del sistema d'emmagatzematge](../exercicis/ex001-sistema-emmagatzematge.md)
 
 ## 4. De fitxers tradicionals a base de dades
 Els fitxers són útils en entorns senzills, però quan el volum de dades creix i cal compartir la informació entre diferents usuaris o aplicacions, apareixen problemes d'eficiència, seguretat i manteniment.
@@ -116,7 +116,7 @@ No tots els escenaris requereixen la complexitat d'un SGBD. Un **fitxer tradicio
     4. No es requereixen **consultes complexes**.
     5. Es tracta de **fitxers de configuració** o registres d'activitat (*logs*) simples.
 
-Veure [Exercici 2: Detecció de redundàncies](../exercicis/ex2-deteccio-redundancia.md)
+Veure [Exercici 2: Detecció de redundàncies](../exercicis/ex002-deteccio-redundancia.md)
 
 
 ## 5. Sistemes gestors de bases de dades
@@ -230,7 +230,7 @@ Per dur a terme la seva funció, el SGBD utilitza diferents estructures de fitxe
 - **Optimització**: Índexs i estadístiques d’ús del sistema.
 - **Lògica programable**: Procediments emmagatzemats, funcions i *triggers*.
 
-Veure [Exercici 3: consultar el diccionari de dades amb SQLite](../exercicis/ex3-consultar.md)
+Veure [Exercici 3: consultar el diccionari de dades amb SQLite](../exercicis/ex003-consultar.md)
 
 
 ## 7. Arquitectura ANSI/X3/SPARC: nivells d’abstracció
@@ -309,7 +309,7 @@ Un **model de dades** és un conjunt d’eines conceptuals que permet descriure 
 | **Documental (JSON/XML)** | Documents semiestructurats. | Gran flexibilitat d’esquema i escalabilitat. | Integritat referencial menys directa o automàtica. |
 | **Graf** | Nodes i arestes. | Optimitza la cerca de relacions complexes i camins. | Menys eficient per a dades tabulars o simples. |
 
-Veure [Exercici 4. Triar el model adequat](../exercicis/ex4-model-adequat.md)
+Veure [Exercici 4. Triar el model adequat](../exercicis/ex004-model-adequat.md)
 
 
 ## 9. Bases de dades segons la ubicació de la informació
@@ -360,7 +360,7 @@ La **transparència** permet que la complexitat de la distribució sigui invisib
 | Permeten autonomia local a cada seu o node. | Costos elevats de xarxa, infraestructura i comunicació. |
 | Reparteixen la càrrega de treball (escalabilitat). | Gestió de la seguretat i recuperació més complexa. |
 
-Veure [Exercici 5. Disseny distribuït](../exercicis/ex5-disseny-distribuit.md)
+Veure [Exercici 5. Disseny distribuït](../exercicis/ex005-disseny-distribuit.md)
 
 
 ## 10. Classificació dels SGBD
@@ -407,10 +407,10 @@ Els SGBD es poden classificar des de diferents punts de vista segons el criteri 
 | **Servei gestionat (*DBaaS*)** | El proveïdor (AWS, GCP, Azure) s’encarrega del manteniment, còpies i escalabilitat. |
 | **Híbrid** | Combina servidors locals amb infraestructures de bases de dades al núvol. |
 
-Veure [Exercici 6. Classificar SGBD](../exercicis/ex6-classificar-sgbd.md)
+Veure [Exercici 6. Classificar SGBD](../exercicis/ex006-classificar-sgbd.md)
 
 ## 11. Avaluació final
-Veure [Exercici 7. Avaluació final](../exercicis/ex7-avaluacio-final.md)
+Veure [Exercici 7. Avaluació final](../exercicis/ex007-avaluacio-final.md)
 
 ## 12. Glossari
 - **Atribut:** Propietat d’una entitat.
